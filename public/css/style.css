@@ -33,6 +33,7 @@ body {
   background-color: #596e73;
   height: 720px;
   width: 1280px;
+  /*width: 1480px;*/
 }
 
 .input_video {
@@ -53,6 +54,13 @@ body {
   left: 0;
   top: 0;
 }
+
+/*.counter_canvas {
+  position: absolute;
+  height: 720px;
+  width: 200px;
+  top: 0;
+}*/
 
 .logo {
   bottom: 10px;
