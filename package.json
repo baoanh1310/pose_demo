@@ -1,0 +1,22 @@
+{
+  "name": "pose",
+  "version": "1.0.0",
+  "description": "human pose estimation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "baoanh1310",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1620247984",
+    "@mediapipe/control_utils": "^0.3.1620248228",
+    "@mediapipe/drawing_utils": "^0.3.1620248257",
+    "@mediapipe/pose": "^0.3.1621277220",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "morgan": "^1.10.0"
+  }
+}
