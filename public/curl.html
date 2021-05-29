@@ -11,6 +11,7 @@
     <script src="./javascript/control_utils.js"></script>
     <script src="./javascript/drawing_utils.js"></script>
     <script src="./javascript/pose.js"></script>
+    <title>Curl Counter</title>
 </head>
 
 <body>
@@ -172,24 +173,24 @@ new ControlPanel(controlsElement, {
         new StaticText({ title: 'Curl Counter Mode' }),
         fpsControl,
         new Toggle({ title: 'Right Hand Practice', field: 'selfieMode' }),
-        new Slider({
-            title: 'Model Complexity',
-            field: 'modelComplexity',
-            discrete: ['Lite', 'Full', 'Heavy'],
-        }),
-        new Toggle({ title: 'Smooth Landmarks', field: 'smoothLandmarks' }),
-        new Slider({
-            title: 'Min Detection Confidence',
-            field: 'minDetectionConfidence',
-            range: [0, 1],
-            step: 0.01
-        }),
-        new Slider({
-            title: 'Min Tracking Confidence',
-            field: 'minTrackingConfidence',
-            range: [0, 1],
-            step: 0.01
-        }),
+        // new Slider({
+        //     title: 'Model Complexity',
+        //     field: 'modelComplexity',
+        //     discrete: ['Lite', 'Full', 'Heavy'],
+        // }),
+        // new Toggle({ title: 'Smooth Landmarks', field: 'smoothLandmarks' }),
+        // new Slider({
+        //     title: 'Min Detection Confidence',
+        //     field: 'minDetectionConfidence',
+        //     range: [0, 1],
+        //     step: 0.01
+        // }),
+        // new Slider({
+        //     title: 'Min Tracking Confidence',
+        //     field: 'minTrackingConfidence',
+        //     range: [0, 1],
+        //     step: 0.01
+        // }),
     ])
     .on(options => {
         videoElement.classList.toggle('selfie', options.selfieMode);
